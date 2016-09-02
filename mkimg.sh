@@ -46,7 +46,7 @@ function convert_bytes()
 # start the dangerous stuff
 linux_partition=${device}2
 
-# do not continue of there are errors
+# do not continue if there are errors
 set -e
 
 e2fsck -f ${linux_partition}
